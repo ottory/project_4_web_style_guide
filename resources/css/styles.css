@@ -431,6 +431,17 @@ a {
   border-radius: 5px;
 }
 
+/* line 49, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/base/_typography.scss */
+a {
+  background-color: transparent;
+}
+
+/* line 52, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/base/_typography.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
 /* ============================================= */
 /* Components Imports */
 /* ============================================= */
@@ -448,27 +459,27 @@ a {
   border-radius: 5px;
 }
 
-/* line 15, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_buttons.scss */
+/* line 16, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_buttons.scss */
 .default {
   background-color: #51ddfc;
 }
 
-/* line 19, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_buttons.scss */
+/* line 20, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_buttons.scss */
 .error {
   background-color: #e4757a;
 }
 
-/* line 23, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_buttons.scss */
+/* line 24, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_buttons.scss */
 .info {
   background-color: #927bc1;
 }
 
-/* line 27, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_buttons.scss */
+/* line 28, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_buttons.scss */
 .success {
   background-color: #63cc82;
 }
 
-/* line 31, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_buttons.scss */
+/* line 32, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_buttons.scss */
 .warning {
   background-color: #fd7856;
 }
@@ -512,8 +523,8 @@ a {
   flex-direction: column;
 }
 
-/* line 12, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_navigation.scss */
-.nav-link {
+/* line 11, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_navigation.scss */
+.nav-nav-link {
   text-align: center;
   border-radius: 5px;
   padding: 10px 0;
@@ -522,8 +533,8 @@ a {
   transition: background-color .2s ease-in-out,  color .2s ease-in-out;
 }
 
-/* line 23, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_navigation.scss */
-.nav-link:hover {
+/* line 21, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_navigation.scss */
+.nav-nav-link:hover {
   color: #fff;
   background-color: #58e1c1;
 }
@@ -541,8 +552,8 @@ a {
   max-height: 100%;
 }
 
-/* line 14, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_images.scss */
-.img-frame {
+/* line 12, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_images.scss */
+.img-avatar-frame {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -552,8 +563,8 @@ a {
   border: 1px solid #ccc;
 }
 
-/* line 24, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_images.scss */
-.img-logo {
+/* line 21, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_images.scss */
+.img-avatar-img-logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
