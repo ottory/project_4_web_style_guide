@@ -459,29 +459,59 @@ h1 {
   border-radius: 5px;
 }
 
-/* line 16, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_buttons.scss */
+/* line 17, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_buttons.scss */
 .default {
   background-color: #51ddfc;
 }
 
-/* line 20, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_buttons.scss */
+/* line 19, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_buttons.scss */
+.default:hover {
+  background-color: #9cecfd;
+  transition: .4s ease-out .2s;
+}
+
+/* line 26, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_buttons.scss */
 .error {
   background-color: #e4757a;
 }
 
-/* line 24, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_buttons.scss */
+/* line 28, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_buttons.scss */
+.error:hover {
+  background-color: #f1b5b8;
+  transition: .4s ease-out .2s;
+}
+
+/* line 34, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_buttons.scss */
 .info {
   background-color: #927bc1;
 }
 
-/* line 28, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_buttons.scss */
+/* line 36, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_buttons.scss */
+.info:hover {
+  background-color: #bdafd9;
+  transition: .4s ease-out .2s;
+}
+
+/* line 42, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_buttons.scss */
 .success {
   background-color: #63cc82;
 }
 
-/* line 32, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_buttons.scss */
+/* line 44, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_buttons.scss */
+.success:hover {
+  background-color: #9ddfb0;
+  transition: .4s ease-out .2s;
+}
+
+/* line 50, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_buttons.scss */
 .warning {
   background-color: #fd7856;
+}
+
+/* line 52, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_buttons.scss */
+.warning:hover {
+  background-color: #feb4a2;
+  transition: .4s ease-out .2s;
 }
 
 /* ============================================= */
@@ -552,7 +582,7 @@ h1 {
   max-height: 100%;
 }
 
-/* line 12, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_images.scss */
+/* line 10, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_images.scss */
 .img-avatar-frame {
   display: block;
   margin-left: auto;
@@ -563,7 +593,7 @@ h1 {
   border: 1px solid #ccc;
 }
 
-/* line 21, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_images.scss */
+/* line 17, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_images.scss */
 .img-avatar-img-logo {
   display: block;
   margin-left: auto;
@@ -676,88 +706,88 @@ h1 {
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 19, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_media-queries.scss */
+  /* line 17, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_media-queries.scss */
   .row {
     flex-direction: row;
   }
-  /* line 23, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_media-queries.scss */
+  /* line 21, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_media-queries.scss */
   [class^=col] {
     display: flex;
     justify-content: center;
     margin-top: 0;
     align-items: center;
   }
-  /* line 30, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_media-queries.scss */
+  /* line 28, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_media-queries.scss */
   [class^=col] + [class^=col] {
     margin-left: 10px;
   }
-  /* line 34, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_media-queries.scss */
+  /* line 32, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_media-queries.scss */
   .col-1 {
     flex-basis: 8.33%;
   }
-  /* line 38, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_media-queries.scss */
+  /* line 36, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_media-queries.scss */
   .col-2 {
     flex-basis: 16.67%;
   }
-  /* line 42, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_media-queries.scss */
+  /* line 40, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_media-queries.scss */
   .col-3 {
     flex-basis: 25.00%;
   }
-  /* line 46, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_media-queries.scss */
+  /* line 44, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_media-queries.scss */
   .col-4 {
     flex-basis: 33.33%;
   }
-  /* line 50, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_media-queries.scss */
+  /* line 48, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_media-queries.scss */
   .col-5 {
     flex-basis: 41.67%;
   }
-  /* line 54, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_media-queries.scss */
+  /* line 52, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_media-queries.scss */
   .col-6 {
     flex-basis: 50.00%;
   }
-  /* line 58, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_media-queries.scss */
+  /* line 56, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_media-queries.scss */
   .col-7 {
     flex-basis: 58.33%;
   }
-  /* line 62, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_media-queries.scss */
+  /* line 60, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_media-queries.scss */
   .col-8 {
     flex-basis: 66.67%;
   }
-  /* line 66, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_media-queries.scss */
+  /* line 64, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_media-queries.scss */
   .col-9 {
     flex-basis: 75.00%;
   }
-  /* line 70, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_media-queries.scss */
+  /* line 68, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_media-queries.scss */
   .col-10 {
     flex-basis: 83.33%;
   }
-  /* line 74, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_media-queries.scss */
+  /* line 72, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_media-queries.scss */
   .col-11 {
     flex-basis: 91.67%;
   }
-  /* line 78, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_media-queries.scss */
+  /* line 76, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_media-queries.scss */
   .col-12 {
     flex-basis: 100%;
   }
-  /* line 82, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_media-queries.scss */
+  /* line 80, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_media-queries.scss */
   .nav {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
   }
-  /* line 88, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_media-queries.scss */
+  /* line 86, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_media-queries.scss */
   .nav-link {
     flex-basis: 100px;
   }
-  /* line 92, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_media-queries.scss */
+  /* line 90, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_media-queries.scss */
   .btn {
     padding: 10px 30px;
   }
-  /* line 96, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_media-queries.scss */
+  /* line 94, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_media-queries.scss */
   .btn + .btn {
     margin-left: 10px;
   }
-  /* line 100, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_media-queries.scss */
+  /* line 98, ../../../../../../../DrewsFolder/DrewsCoding/style_guide_v7/project_4_web_style_guide/scss/components/_media-queries.scss */
   .logo {
     margin-left: initial;
     margin-right: initial;
